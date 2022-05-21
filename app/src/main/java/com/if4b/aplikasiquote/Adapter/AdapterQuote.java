@@ -55,7 +55,7 @@ public class AdapterQuote extends RecyclerView.Adapter<AdapterQuote.HolderData>{
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(itemView.getContext(), "Author: "+tvText.getText().toString(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(itemView.getContext(), "Author: "+tvAuthor.getText().toString(), Toast.LENGTH_SHORT).show();
                 }
             });
         }
